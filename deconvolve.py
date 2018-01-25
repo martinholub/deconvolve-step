@@ -99,9 +99,7 @@ time = np.arange(301)
 lambd = 0
 sampling_time = 3 #s
 
-fpath = ''.join(("P:\\MartinHolub\\phos_lifetime\\",
-    "2018-01-18-pO2-calibrator-test006\\sensor_data\\",
-    "Experiment_18012018_9ul2ml_air_recycled_2018-01-18 14-23-00.csv"))
+fpath = ''.join(("path//to//file"))
 data = get_exp_data(fpath, sampling_time)
 
 # ## Alternative 1 - filter is the step   
